@@ -821,7 +821,7 @@ margin-bottom: 1.5em;
 #footer {
     padding: 100px 20px;
     background: rgb(174,238,197);
-    background: radial-gradient(circle, rgba(174,238,197,1) 0%, rgba(185,233,148,1) 100%);
+    background: radial-gradient(circle, rgb(5, 67, 28) 0%, rgb(51, 66, 39) 100%);
     position: relative;
   }
   
