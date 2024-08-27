@@ -133,7 +133,7 @@ body {
         height: 40%; /* Added height */
         width: 50%; /* Added width */
         border-radius: 20px;
-
+text-decoration: none;
         flex-direction: column;
         justify-content: center;
         text-align: center;
