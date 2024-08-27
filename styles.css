@@ -873,6 +873,6 @@ margin-bottom: 1.5em;
       font-size: 14px;
     }
     .footer-img {
-      top: 25%;
+      display: none;
     }
   }
