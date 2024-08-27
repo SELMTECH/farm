@@ -22,26 +22,6 @@ body {
     font-size: 0.9em;
     font-style: normal;
 }
-.hero-img{
-   width: 100%;
-   height: 90vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-   
-}
-
-
-.hero-section {
-    position: relative;
-    overflow: hidden;
-  }
-  
-
-
-
-
-
 
 
 /* navbar-----------------------------------*/
@@ -191,21 +171,21 @@ body {
 
     .navbar.openNav .icons #x-closed {
         position: absolute;
-        top: 20px;
-        right: 5px;
+                    top: 20px;
+                    right: 5px;
 
-        font-size: 45px;
-        padding: 0.5rem 0.9rem;
-        border-radius: 80px;
-        background: #ffffff3b;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.027),
-            0 2px 2px rgba(0, 0, 0, 0.027),
-            0 4px 4px rgba(0, 0, 0, 0.027),
-            0 8px 8px rgba(0, 0, 0, 0.027),
-            0 16px 16px rgba(0, 0, 0, 0.027);
-        cursor: pointer;
+                    font-size: 45px;
+                    padding: 0.5rem 0.9rem;
+                    border-radius: 80px;
+                    background: #ffffff3b;
+                    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.027),
+                        0 2px 2px rgba(0, 0, 0, 0.027),
+                        0 4px 4px rgba(0, 0, 0, 0.027),
+                        0 8px 8px rgba(0, 0, 0, 0.027),
+                        0 16px 16px rgba(0, 0, 0, 0.027);
+                    cursor: pointer;
 
-        transition: all 0.8s ease;
+                    transition: all 0.8s ease;
     }
    
 }
@@ -217,6 +197,22 @@ body {
 
 
 /* Hero section styling */
+.hero-img{
+    width: 100%;
+    height: 90vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+    
+ }
+ 
+ 
+ .hero-section {
+     position: relative;
+     overflow: hidden;
+   }
+   
+ 
 .hero {
     position: relative;
     text-align: center;
@@ -812,6 +808,32 @@ margin-bottom: 1.5em;
     margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+    #blog-section div:nth-child(2) {
+      flex-direction: column;
+    }
+    #blog-section div:nth-child(2) div {
+      width: 100%;
+    }
+  
+    
+  }@media (max-width: 768px) {
+    #blog-section div:nth-child(2) {
+        flex-direction: column;
+        gap: 1.5em; /* Adjust gap between stacked items */
+        align-items: center; /* Center the columns */
+    }
+    #blog-section div:nth-child(2) div {
+      min-width: 300px;
+      display: inline-block; /* add this line to center the cards */
+    }
+    #blog-section div:nth-child(2) div img {
+      min-width: 250px;
+      border-radius: 10px;
+    }
+  }
+  
+   
 
 
 
@@ -876,3 +898,4 @@ margin-bottom: 1.5em;
       display: none;
     }
   }
+
